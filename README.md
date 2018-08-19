@@ -19,6 +19,7 @@ From the command line, at the root of the project (/openweathermap),
   - java -jar boot/target/boot-1.0-SNAPSHOT.jar
 
 To have a small demo, open your browser, and go to: http://localhost:8090/openweathermap/index
+
 You can also play with the API using Swagger: http://localhost:8090/openweathermap/swagger-ui.html
 
 # TODO list
