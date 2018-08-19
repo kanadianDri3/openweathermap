@@ -2,11 +2,18 @@ $(document).ready(function(){
     $("#weatherSearchResult").hide();
 
     $("#searchByCityName").click(function(){
-        console.log($("#cityNameInput").val());
+        $("#dateWeatherReport").empty();
+        $("#cityName").empty();
+        $("#weatherDescription").empty();
+        $("#celsiusTemperature").empty();
+        $("#fahrenheitTemperature").empty();
+        $("#sunriseTime").empty();
+        $("#sunsetTime").empty();
+
         $.getJSON("/openweathermap/weather/"+$("#cityNameInput").val(), function(data) {
-            $("#daterWeatherReport").append(data.date);
+            $("#dateWeatherReport").append('The report is from ' + data.date);
             $("#cityName").append(data.city.name + ', ' + data.city.countryCode);
-            $("#weatherDescription").append(data.description);
+            $("#weatherDescription").append('weather description: ' + data.description);
             $("#celsiusTemperature").append(data.temperatureCelsius.value + ' celsius');
             $("#fahrenheitTemperature").append(data.temperatureFahrenheit.value + ' fahrenheit');
             $("#sunriseTime").append(data.sunrise + ' UTC');
