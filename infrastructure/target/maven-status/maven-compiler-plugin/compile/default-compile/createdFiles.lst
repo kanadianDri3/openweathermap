@@ -1,0 +1,11 @@
+org/lemaire/weather/dto/Coordinates.class
+org/lemaire/weather/dto/Rain.class
+org/lemaire/weather/dto/Wind.class
+org/lemaire/weather/dto/MainDto.class
+org/lemaire/weather/dto/Snow.class
+org/lemaire/weather/repositories/OpenWeatherMapInterface.class
+org/lemaire/weather/dto/WeatherDto.class
+org/lemaire/weather/WeatherForecast.class
+org/lemaire/weather/dto/Clouds.class
+org/lemaire/weather/dto/SystemDto.class
+org/lemaire/weather/repositories/OpenWeatherMapImpl.class
