@@ -12,7 +12,7 @@ You can download the project from the git link.
 If you choose to open it with your favorite IDE, launch the MainApplication.java (boot module, src/main/java/org/lemaire/)
 
 To have a small demo, open your browser, and go to: http://localhost:8090/openweathermap/index
-You can also play with the API using Swagger: localhost:8090/openweathermap/swagger-ui.html
+You can also play with the API using Swagger: http://localhost:8090/openweathermap/swagger-ui.html
 
 # TODO list
 More things to add:
