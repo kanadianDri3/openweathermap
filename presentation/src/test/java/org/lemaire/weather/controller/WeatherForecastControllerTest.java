@@ -58,7 +58,7 @@ public class WeatherForecastControllerTest {
 
         when(weatherForecastServiceMock.getWeatherByCityName("london")).thenReturn(weatherLondon);
 
-        mockMvc.perform(get("/weather/show/london")
+        mockMvc.perform(get("/weather/london")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.city.name").value("London"));

@@ -27,7 +27,6 @@
         <module>application</module>
         <module>boot</module>
         <module>presentation</module>
-        <module>front</module>
     </modules>
 
     <dependencies>
