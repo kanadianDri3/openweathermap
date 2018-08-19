@@ -15,8 +15,8 @@ You can download the project from the git link.
 If you choose to open it with your favorite IDE, launch the MainApplication.java (boot module, src/main/java/org/lemaire/).
 
 From the command line, at the root of the project (/openweathermap),
-    - mvn clean install package
-    - java -jar boot/target/boot-1.0-SNAPSHOT.jar
+  - mvn clean install package
+  - java -jar boot/target/boot-1.0-SNAPSHOT.jar
 
 To have a small demo, open your browser, and go to: http://localhost:8090/openweathermap/index
 You can also play with the API using Swagger: http://localhost:8090/openweathermap/swagger-ui.html
