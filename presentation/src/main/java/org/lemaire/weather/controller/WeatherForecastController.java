@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/weather")
 public class WeatherForecastController {
 
     private WeatherForecastService weatherForecastService;
@@ -19,7 +18,7 @@ public class WeatherForecastController {
         this.weatherForecastService = weatherForecastService;
     }
 
-    @RequestMapping(path = "/show/{cityName}", method = RequestMethod.GET)
+    @RequestMapping(path = "/weather/{cityName}", method = RequestMethod.GET)
     Weather weatherByCityName(@PathVariable String cityName) {
         return weatherForecastService.getWeatherByCityName(cityName);
     }
