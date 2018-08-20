@@ -31,3 +31,4 @@ More things to add:
   - add more info on the web interface.
   - add some behaviour testing.
   - add unit testing on the infrastructure layer.
+  - exception manager
